@@ -49,3 +49,71 @@ header{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.site-main{
+    display: flex;
+}
+
+main{
+    background-color: #DEE9F7;
+    padding: 4rem 0;
+}
+
+.productos{
+    background-color: #ffffff;
+    border: solid .1rem #6A6F75;
+    margin: 2rem;
+    flex-basis: 80%;
+}
+
+.precio{
+    color: #ff6347;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+}
+
+.listado-productos{
+    display: flex;
+}
+
+.subtitulo{
+    padding: 1.5rem;
+}
+
+.card p{
+    margin-top: 0;
+}
+
+.barra-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: solid .1rem #6A6F75;
+    height: 50rem;
+    flex-basis: 20%;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.input, select{
+    background-color: darkgray;
+    border-radius: .5rem;
+    border-style: none;
+    margin-bottom: 1rem;
+    padding: .8rem;
+}
